@@ -23,12 +23,20 @@ He named it "Hexagonal" simply because of the visual representation he used — 
 
 The main motivation was **testability**: being able to run the application "headless", without a real database or UI, using mocks at the boundaries.
 
+<br />
+
+<img src="images/hexagonal-architecture.png" height="600" width="600" />
+
 ---
 
 ### 2008 — Onion Architecture
 **Author:** Jeffrey Palermo
 
 Palermo built on Cockburn's ideas and formalized the internal layers more explicitly. The "onion" metaphor emphasized that layers wrap around a central domain model, and dependencies always flow **inward** — outer layers know about inner layers, but never the reverse.
+
+<br />
+
+<img src="images/onion-architecture.png" height="600" width="600" />
 
 ---
 
@@ -38,6 +46,10 @@ Palermo built on Cockburn's ideas and formalized the internal layers more explic
 Uncle Bob published his blog post in 2012 and later the book in 2017. He explicitly acknowledged Hexagonal and Onion as inspirations and unified the concepts under a single, more prescriptive framework — naming each layer, each responsibility, and formalizing the **Dependency Rule**.
 
 > All three share the same fundamental principle: **dependencies always point inward, toward the domain.**
+
+<br />
+
+<img src="images/clean-architecture.jpg" height="600" width="600" />
 
 ---
 
